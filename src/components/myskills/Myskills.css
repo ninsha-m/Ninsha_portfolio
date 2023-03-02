@@ -1,0 +1,147 @@
+.row .myskills{
+    position: relative;
+    width: 1000px;
+    background:  rgb(33, 28, 49);
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+    height: 550px;
+    opacity: 0.9;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    
+}
+.skills-main{
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+    margin-left: 130px;
+}
+.skills-main .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+}
+.skill-bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(241, 229, 229, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: goldenrod;
+    border-radius: 25px;
+}
+.skills-main{
+    left: 10px;
+}
+.skill-bar .bar .html{
+    width: 90%;
+    animation: html 2s;
+    
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill-bar .bar .css{
+    width: 85%;
+    animation: css 2s;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+.skill-bar .bar .sass{
+    width: 80%;
+    animation: sass 2s;
+}
+@keyframes sass {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill-bar .bar .js{
+    width: 80%;
+    animation: css 2s;
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill-bar .bar .react{
+    width: 75%;
+    animation: react 2s;
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }100%{
+        width: 75%;
+    }
+}
+.skill-bar .bar .node{
+    width: 70%;
+    animation: node 2s;
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill-bar .bar .express{
+    width: 65%;
+    animation: express 2s;
+}
+@keyframes express {
+    0%{
+        width: 0%;
+    }100%{
+        width: 65%;
+    }
+}
+.skill-bar .bar .mongo{
+    width: 60%;
+    animation: mongo 2s;
+}
+@keyframes mongo {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+.skills-main .skill-bar p{
+    color: rgb(61, 185, 216);
+
+}

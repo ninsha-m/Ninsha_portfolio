@@ -1,0 +1,91 @@
+.row .aboutme{
+    position: relative;
+    width: 1000px;
+    background:  rgb(33, 28, 49);
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+    height: 600px;
+    top: 100px;
+    opacity: 0.9;
+    
+}
+h2{
+    margin: 30px 420px;
+    color: white;
+}
+.aboutme-content{
+
+    margin-right: 85px;
+    margin-left: 380px;
+    margin-top: 20px;
+    position: absolute;
+    
+    
+    
+}
+
+h4{
+    color: goldenrod;
+    
+}
+h3{
+    color: white;
+}
+.para{
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-right: 40px;
+}
+
+.details{
+    background: rgb(33, 28, 49);;
+    position: relative;    
+    opacity: 0.7;
+    color: white;
+    height: 200px;
+    z-index: 10;
+    bottom: 200px;
+    left: 400px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.details li{
+    font-weight: lighter;
+    font-size: smaller;
+    list-style-type: '*';
+    padding: 10px;
+    
+     
+}
+.details li span{
+    font-weight: bold;
+    
+}
+.class2{
+    margin: 35px 30px;
+    
+    height: 200px;
+    
+}
+.class1{
+   
+   margin-top: 30px;
+   height: 200px; 
+}
+.my-image{
+    background-image: url(./my-image.jpg);
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    margin-top: 120px;
+    margin-left: 80px;
+    border-radius: 5px;
+    box-shadow: -30px 30px 20px rgba(1, 20, 20, 0.3);
+    opacity: 1;
+    
+    
+}
+
