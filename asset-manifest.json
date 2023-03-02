@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ninsha_portfolio/static/css/main.4de1cc61.css",
+    "main.js": "/ninsha_portfolio/static/js/main.3c5de4c9.js",
+    "static/media/back-image.jpg": "/ninsha_portfolio/static/media/back-image.375d449c2c86b4ceddab.jpg",
+    "static/media/my-image.jpg": "/ninsha_portfolio/static/media/my-image.10b666882d2171e0d0b0.jpg",
+    "index.html": "/ninsha_portfolio/index.html",
+    "main.4de1cc61.css.map": "/ninsha_portfolio/static/css/main.4de1cc61.css.map",
+    "main.3c5de4c9.js.map": "/ninsha_portfolio/static/js/main.3c5de4c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4de1cc61.css",
+    "static/js/main.3c5de4c9.js"
+  ]
+}
